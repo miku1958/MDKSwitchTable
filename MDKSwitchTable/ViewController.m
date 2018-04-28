@@ -65,13 +65,25 @@
 	// Dispose of any resources that can be recreated.
 }
 
-
+//MARK:	switchTab
 - (NSInteger)MDKSwitchNumberOfSection {
 	return _midSwitchTitleArr.count;
 }
+- (NSString *)MDKSwitchTitleOfSectionInHeader:(NSInteger)section {
+	return _midSwitchTitleArr[section];
+}
 
+- (NSInteger)MDKSwitchTable:(UITableView *)midTable ofIndex:(NSUInteger)index numberOfRowsInSection:(NSInteger)section {
+	return _midSwitchDataArr[index].count;
+}
+
+//MARK:	mid
 - (void)MDKSwitchRegisterCellForTable:(UITableView *)midTable ofIndex:(NSUInteger)index {
 	[midTable registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
+}
+
+- (CGFloat)MDKSwitchTable:(UITableView *)midTable ofIndex:(NSUInteger)index heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+	return 50;
 }
 
 - (UITableViewCell *)MDKSwitchTable:(UITableView *)midTable ofIndex:(NSUInteger)index cellAtIndexPath:(NSIndexPath *)indexPath {
@@ -84,17 +96,6 @@
 
 }
 
-- (CGFloat)MDKSwitchTable:(UITableView *)midTable ofIndex:(NSUInteger)index heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-	return 50;
-}
-
-- (NSInteger)MDKSwitchTable:(UITableView *)midTable ofIndex:(NSUInteger)index numberOfRowsInSection:(NSInteger)section {
-	return _midSwitchDataArr[index].count;
-}
-
-- (NSString *)MDKSwitchTitleOfSectionInHeader:(NSInteger)section {
-	return _midSwitchTitleArr[section];
-}
 
 
 @end
