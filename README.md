@@ -6,22 +6,20 @@
 ![image](https://raw.githubusercontent.com/miku1958/MDKSwitchTable/master/example/2018-04-28%2011_18_44.gif)
 
 # usage
-1. #### create a swtichTable
-
+#### 1、create a swtichTable
 
     MDKSwitchTopSelectViewOption *option = [[MDKSwitchTopSelectViewOption alloc]init];
     MDKSwitchTableView *switchTable = [[MDKSwitchTableView alloc]initWithOption:option];
-    
 
-2. #### if you want to change the property of switch tab view ,you can change the option's property,like itemTextColor
+#### 2、if you want to change the property of switch tab view ,you can change the option's property,like itemTextColor
     
-3. #### add delegate 
+#### 3、add delegate 
 
 
     switchTable.delegate = self;
-    
 
-4. #### implement MDKSwitchTableDelegate methods 
+
+#### 4、implement MDKSwitchTableDelegate methods 
 basically is the same as tableviewDatasource and tableviewDelegate
 
     //MARK:	switchTab
@@ -55,7 +53,7 @@ basically is the same as tableviewDatasource and tableviewDelegate
     
     }
 
-#### if you need a extra headerView,you can reset
+#### 5、if you need a extra headerView,you can reset
 
     switchTable.headerView
     
