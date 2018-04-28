@@ -10,6 +10,8 @@
 		FF4C21A320930F2700069DBE /* MDKSwitchTableMidCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4C219D20930F2700069DBE /* MDKSwitchTableMidCell.m */; };
 		FF4C21A420930F2700069DBE /* MDKSwitchTableHeaderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4C219F20930F2700069DBE /* MDKSwitchTableHeaderViewCell.m */; };
 		FF4C21A520930F2700069DBE /* MDKSwitchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4C21A220930F2700069DBE /* MDKSwitchTableView.m */; };
+		FF76D84620932959007C0999 /* midSwitchTitleArr.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF76D84420932958007C0999 /* midSwitchTitleArr.plist */; };
+		FF76D84720932959007C0999 /* midSwitchDataArr.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF76D84520932959007C0999 /* midSwitchDataArr.plist */; };
 		FFE035682092B4F600554A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE035672092B4F600554A3A /* AppDelegate.m */; };
 		FFE0356B2092B4F600554A3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE0356A2092B4F600554A3A /* ViewController.m */; };
 		FFE0356E2092B4F600554A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE0356C2092B4F600554A3A /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 		FF4C21A020930F2700069DBE /* MDKSwitchTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDKSwitchTableDelegate.h; sourceTree = "<group>"; };
 		FF4C21A120930F2700069DBE /* MDKSwitchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDKSwitchTableView.h; sourceTree = "<group>"; };
 		FF4C21A220930F2700069DBE /* MDKSwitchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDKSwitchTableView.m; sourceTree = "<group>"; };
+		FF76D84420932958007C0999 /* midSwitchTitleArr.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = midSwitchTitleArr.plist; sourceTree = "<group>"; };
+		FF76D84520932959007C0999 /* midSwitchDataArr.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = midSwitchDataArr.plist; sourceTree = "<group>"; };
 		FFE035632092B4F600554A3A /* MDKSwitchTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDKSwitchTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE035662092B4F600554A3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFE035672092B4F600554A3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 		FFE035652092B4F600554A3A /* MDKSwitchTable */ = {
 			isa = PBXGroup;
 			children = (
+				FF76D84520932959007C0999 /* midSwitchDataArr.plist */,
+				FF76D84420932958007C0999 /* midSwitchTitleArr.plist */,
 				FFE035662092B4F600554A3A /* AppDelegate.h */,
 				FFE035672092B4F600554A3A /* AppDelegate.m */,
 				FFE035692092B4F600554A3A /* ViewController.h */,
@@ -170,9 +176,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF76D84620932959007C0999 /* midSwitchTitleArr.plist in Resources */,
 				FFE035732092B4F600554A3A /* LaunchScreen.storyboard in Resources */,
 				FFE035702092B4F600554A3A /* Assets.xcassets in Resources */,
 				FFE0356E2092B4F600554A3A /* Main.storyboard in Resources */,
+				FF76D84720932959007C0999 /* midSwitchDataArr.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

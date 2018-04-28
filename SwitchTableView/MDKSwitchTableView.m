@@ -142,6 +142,7 @@
 }
 
 - (void)reloadData{
+	[self layoutSubviews];
 	[_topSelectCollectionView reloadData];
 	[_midCollectionView reloadData];
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>所有部门</string>
+	<string>无部门</string>
+	<string>行政部</string>
+	<string>人力部</string>
+	<string>财务部</string>
+	<string>五金部</string>
+	<string>皮具部</string>
+	<string>模具部</string>
+</array>
+</plist>

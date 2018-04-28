@@ -21,6 +21,7 @@
 -(UITableViewCell *)MDKSwitchTable:(UITableView *)midTable ofIndex:(NSUInteger)index cellAtIndexPath:(NSIndexPath *)indexPath;
 
 -(void)MDKSwitchTable:(UITableView *)midTable ofIndex:(NSUInteger)index didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+@optional
 @end
 
 @protocol MDKSwitchScrollDelegate<NSObject>
