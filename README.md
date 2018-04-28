@@ -12,6 +12,7 @@
     MDKSwitchTopSelectViewOption *option = [[MDKSwitchTopSelectViewOption alloc]init];
     MDKSwitchTableView *switchTable = [[MDKSwitchTableView alloc]initWithOption:option];
     
+
 2. #### if you want to change the property of switch tab view ,you can change the option's property,like itemTextColor
     
 3. #### add delegate 
@@ -19,6 +20,7 @@
 
     switchTable.delegate = self;
     
+
 4. #### implement MDKSwitchTableDelegate methods 
 basically is the same as tableviewDatasource and tableviewDelegate
 
@@ -54,6 +56,7 @@ basically is the same as tableviewDatasource and tableviewDelegate
     }
 
 #### if you need a extra headerView,you can reset
+
     switchTable.headerView
     
 
