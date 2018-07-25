@@ -3,7 +3,7 @@
 
 # Screenshots
 
-![image](https://raw.githubusercontent.com/miku1958/MDKSwitchTable/master/example/2018-04-28%2011_18_44.gif)
+![image](https://github.com/miku1958/MDKSwitchTable/raw/master/example/apngb-animated.png)
 
 # usage
 #### 1、create a swtichTable
